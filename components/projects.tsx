@@ -4,39 +4,39 @@ import { ExternalLink, GitBranch } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Data Analytics Dashboard',
-    description: 'Built a comprehensive Power BI dashboard for real-time business analytics and KPI tracking.',
-    tags: ['Power BI', 'SQL', 'Data Visualization'],
+    title: 'Automated Financial Reporting',
+    description: 'Designed and maintained automated Excel dashboards and SQL-driven reports, reducing manual reporting time by 40% and improving data accessibility for senior management.',
+    tags: ['Excel', 'SQL', 'Automation'],
     link: 'https://github.com/rg474248-alt',
   },
   {
-    title: 'Python Data Pipeline',
-    description: 'Automated data processing pipeline using Python for ETL operations and data cleansing.',
-    tags: ['Python', 'ETL', 'Automation'],
+    title: 'End-to-End Accounting Operations',
+    description: 'Managed comprehensive accounting operations including AP/AR, bank reconciliations, and month-end closing with consistent accuracy and full regulatory compliance.',
+    tags: ['Financial Ops', 'Compliance', 'Excel'],
     link: 'https://github.com/rg474248-alt',
   },
   {
-    title: 'AI-Powered Assistant',
-    description: 'Developed an intelligent assistant leveraging generative AI for task automation and insights.',
-    tags: ['Gen AI', 'Python', 'LLM Integration'],
+    title: 'Python Financial Analytics',
+    description: 'Analyzed complex financial datasets using Python and Tableau to identify trends, anomalies, and cost-saving opportunities informing strategic decisions.',
+    tags: ['Python', 'Tableau', 'Analytics'],
     link: 'https://github.com/rg474248-alt',
   },
   {
-    title: 'Database Optimization',
-    description: 'Optimized complex SQL queries resulting in 40% performance improvement in data retrieval.',
+    title: 'SQL Database Optimization',
+    description: 'Optimized SQL queries and database performance for financial reporting, improving query execution speed and reducing system load.',
     tags: ['SQL', 'Database', 'Performance'],
     link: 'https://github.com/rg474248-alt',
   },
   {
-    title: 'Predictive Analytics Model',
-    description: 'Created machine learning models using Python for forecasting and pattern recognition.',
-    tags: ['Python', 'ML', 'Data Science'],
+    title: 'Tableau Dashboard Suite',
+    description: 'Created interactive Tableau dashboards for stakeholder reporting, transforming raw financial data into actionable business intelligence.',
+    tags: ['Tableau', 'Data Viz', 'BI'],
     link: 'https://github.com/rg474248-alt',
   },
   {
-    title: 'Business Intelligence Suite',
-    description: 'Developed end-to-end BI solution integrating multiple data sources with Power BI.',
-    tags: ['Power BI', 'SQL', 'Integration'],
+    title: 'Process Improvement Initiatives',
+    description: 'Streamlined accounting workflows and implemented process improvements that measurably enhanced operational efficiency across the department.',
+    tags: ['Process Opt', 'Efficiency', 'Strategy'],
     link: 'https://github.com/rg474248-alt',
   },
 ];
@@ -47,9 +47,9 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Featured Projects</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Professional Achievements</h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Explore a selection of projects showcasing my expertise in data, AI, and analytics
+            Key projects and initiatives that demonstrate impact in financial operations, data analysis, and process optimization
           </p>
         </div>
 

@@ -12,10 +12,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-lg font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-3">
-              Portfolio
+              Rishabh Gupta
             </h3>
             <p className="text-foreground/70 text-sm">
-              Data & AI specialist crafting intelligent solutions through Python, SQL, Power BI, and generative AI.
+              Senior Analyst specializing in financial operations, data analysis, and business intelligence with 7+ years of proven track record.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
                 <GitBranch className="w-5 h-5" />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:rg474248@gmail.com"
                 className="p-2 rounded-lg bg-foreground/10 hover:bg-primary hover:text-primary-foreground text-foreground transition-colors"
                 aria-label="Email"
               >
@@ -72,7 +72,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-foreground/60 text-sm text-center md:text-left">
-            © 2024 Portfolio. Built with modern web technologies.
+            © 2026 Rishabh Gupta. Senior Analyst & Data Specialist.
           </p>
           <div className="flex gap-6 text-foreground/60 text-xs">
             <a href="#" className="hover:text-primary transition-colors">
@@ -87,15 +87,13 @@ export default function Footer() {
         {/* Call to Action */}
         <div className="mt-12 p-6 rounded-lg bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 text-center">
           <p className="text-foreground/80 mb-4">
-            Looking to collaborate on your next data or AI project?
+            Ready to transform your financial operations and data into strategic insights?
           </p>
           <a
-            href="https://github.com/rg474248-alt"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:rg474248@gmail.com"
             className="inline-flex px-6 py-2 rounded-lg bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-colors"
           >
-            Let&apos;s Connect
+            Get In Touch
           </a>
         </div>
       </div>

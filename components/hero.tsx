@@ -14,27 +14,27 @@ export default function Hero() {
           </div>
 
           {/* Main Heading */}
-          <div className="space-y-4 max-w-2xl">
-            <h1 className="text-5xl md:text-7xl font-bold text-balance leading-tight">
-              <span className="text-foreground">Transforming Data</span>
-              <br />
-              <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent">
-                Into Insights
-              </span>
-            </h1>
-            <p className="text-lg text-foreground/70 text-balance leading-relaxed">
-              Specialized in Python, SQL, Power BI, and Generative AI. Building intelligent data solutions
-              that drive business decisions and unlock new possibilities.
+          <div className="space-y-4 max-w-3xl">
+            <div className="space-y-2">
+              <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
+                Rishabh Gupta
+              </h1>
+              <p className="text-2xl md:text-3xl bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent font-semibold">
+                Senior Analyst | Data & Business Intelligence
+              </p>
+            </div>
+            <p className="text-lg text-foreground/70 text-balance leading-relaxed pt-4">
+              Results-driven analyst with 7+ years transforming complex financial data into actionable insights. Expert in Python, SQL, Tableau, Power BI, and Gen AI—delivering measurable business impact through strategic data analysis and process automation.
             </p>
           </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-8">
             <a
-              href="#projects"
+              href="mailto:rg474248@gmail.com"
               className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-lg bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-all duration-300 hover:gap-3"
             >
-              View My Work
+              Get In Touch
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
@@ -50,10 +50,10 @@ export default function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 w-full">
             {[
-              { label: 'Skills', value: '5+' },
-              { label: 'Languages', value: '1 Primary' },
-              { label: 'Tools', value: '4+' },
-              { label: 'Focus', value: 'Gen AI' },
+              { label: 'Years Experience', value: '7+' },
+              { label: 'Automation Impact', value: '40%' },
+              { label: 'Awards Won', value: '3' },
+              { label: 'Compliance Rate', value: '100%' },
             ].map((stat) => (
               <div key={stat.label} className="flex flex-col items-center gap-2">
                 <div className="text-2xl md:text-3xl font-bold text-primary">{stat.value}</div>

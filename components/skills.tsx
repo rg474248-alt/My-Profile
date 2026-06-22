@@ -6,26 +6,26 @@ const skills = [
   {
     icon: Code2,
     title: 'Python',
-    description: 'Expert-level proficiency in Python for data analysis, automation, and machine learning applications.',
-    features: ['Data Processing', 'Automation', 'ML Libraries', 'API Development'],
+    description: 'Advanced proficiency with Pandas, NumPy for data processing, automation, and financial analytics.',
+    features: ['Data Analysis', 'Pandas & NumPy', 'Financial Modeling', 'Automation Scripts'],
   },
   {
     icon: Database,
     title: 'SQL',
-    description: 'Advanced SQL skills for database design, optimization, and complex data querying across platforms.',
-    features: ['Query Optimization', 'Database Design', 'Complex Joins', 'Performance Tuning'],
+    description: 'Expert-level SQL for complex queries, database optimization, and financial reporting automation.',
+    features: ['Complex Queries', 'Query Optimization', 'Database Design', 'Performance Tuning'],
   },
   {
     icon: BarChart3,
-    title: 'Power BI',
-    description: 'Creating compelling dashboards and visualizations that tell data stories and drive insights.',
-    features: ['Dashboard Design', 'Data Modeling', 'DAX Formulas', 'Report Building'],
+    title: 'Tableau & Power BI',
+    description: 'Designing interactive dashboards and comprehensive financial visualizations for stakeholder reporting.',
+    features: ['Dashboard Design', 'Data Visualization', 'Financial Reports', 'DAX Formulas'],
   },
   {
     icon: Zap,
-    title: 'Gen AI',
-    description: 'Building intelligent applications with cutting-edge generative AI models and techniques.',
-    features: ['LLM Integration', 'Prompt Engineering', 'AI Workflows', 'Gen AI Tools'],
+    title: 'Gen AI & Tools',
+    description: 'Leveraging generative AI for intelligent automation and strategic decision-making support.',
+    features: ['Gen AI Applications', 'Process Automation', 'Strategic Analysis', 'AI Tools'],
   },
 ];
 
@@ -35,9 +35,9 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Core Expertise</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Technical Skills</h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Hands-on experience with cutting-edge technologies and tools in data science and AI
+            7+ years of hands-on expertise in data analysis, financial operations, and business intelligence
           </p>
         </div>
 

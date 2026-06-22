@@ -7,9 +7,9 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-          Portfolio
-        </div>
+        <Link href="/" className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+          RG
+        </Link>
         <div className="flex items-center gap-8">
           <a
             href="#skills"
